@@ -33,9 +33,43 @@ console.log("Hello World");
 
 //objects
 
-function forobj(pt:{x:number,y:number}){
-    console.log(pt.x,pt.y);
-    return (pt.x,pt.y)
-}
+// function forobj(pt:{x:number,y?:number}){
+//     console.log(pt.x,pt.y);
+//     return (pt.x,pt.y)
+// }
 
-forobj({x:10,y:12})
+// forobj({x:10,y:20})
+
+// unions
+
+// let val:string | number;
+// val="string"
+// console.log(val);
+
+// val=42
+// console.log(val);
+
+// function idd(val:string | number){
+//     if (typeof(val)==="string"){
+//         console.log(val.toUpperCase())
+//     }
+//     else{
+//         console.log(val);
+        
+//     }
+// }
+
+// idd("kris")
+// idd(42)
+
+// TYPE aliSES
+
+// type Point = {
+//     x:number,
+//     y:number
+// }
+// function quadinates(p:Point){
+//     console.log(p.x,p.y);
+// }
+
+// quadinates({x:4,y:2})
