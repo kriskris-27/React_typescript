@@ -22,10 +22,20 @@ console.log("Hello World");
 
 // numres(42);
 
-async function getdata():Promise<string>{
-    const response: Response = await fetch("https:///example.com")
-    console.log("data received");
+// async function getdata():Promise<string>{
+//     const response: Response = await fetch("https:///example.com")
+//     console.log("data received");
     
-    return "data received"
+//     return "data received"
+// }
+// getdata();
+
+
+//objects
+
+function forobj(pt:{x:number,y:number}){
+    console.log(pt.x,pt.y);
+    return (pt.x,pt.y)
 }
-getdata();
+
+forobj({x:10,y:12})
